@@ -53,12 +53,13 @@ public class MSConnPull {
             rs=pstmt.executeQuery();
             list=new ArrayList<>();
             while(rs.next()){
-                int id=rs.getInt("id");
-                String name=rs.getString("name");
-                int cost=rs.getInt("cost");
-                int year=rs.getInt("year");
-                String city=rs.getString("city");
-                list.add(new ProductVo(id,name,cost,year,city));
+                int id = rs.getInt("id");
+                String name = rs.getString("name");
+                int cost = rs.getInt("cost");
+                int year = rs.getInt("year");
+                String city = rs.getString("city");
+                list.add(new ProductVo(id, name, cost, year, city));
+
             }
         }
         catch (SQLException e){
