@@ -24,6 +24,12 @@
             <artifactId>mssql-jdbc</artifactId>
             <version>11.1.2.jre8-preview</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-dbcp -->
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-dbcp</artifactId>
+            <version>8.5.82</version>
+        </dependency>
 
         <dependency>
             <groupId>javax.servlet</groupId>
